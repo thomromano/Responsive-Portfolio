@@ -258,3 +258,185 @@ img {
     margin-top: 120px;
     margin-left: 10px;
 }
+
+
+@media screen (max-width: 980px) {
+    .container {
+        margin-top: 20%;
+        margin-left: 15px;
+    }
+    .column.middle {
+        display: block;
+        float: none;
+        width: 90%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        size: 32px;
+    }
+    .main {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .column.side,
+        {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+        display: block;
+        float: none;
+        margin-left: 15px;
+
+    }
+    .nav {
+        float: none;
+        display: inline-block;
+        vertical-align: center;
+    
+    }
+
+    .port {
+        size: 60%;
+    }
+
+    img {
+        size: 60%;
+    }
+    .footer {
+        max-width: 100%;
+        position: relative;
+        
+
+
+    }
+}
+
+@media screen (max-width: 768px) {
+    .container {
+        margin-top: 20%;
+        margin-left: 15px;
+    }
+    .column.middle {
+        display: block;
+        float: none;
+        width: 90%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        size: 32px;
+    }
+    .main {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .column.side,
+        {
+            position: absolute;
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+        display: block;
+        float: none;
+        margin-left: 15px;
+
+    }
+    .nav {
+        float: none;
+        display: inline-block;
+        vertical-align: center;
+    
+    }
+
+    .port {
+        size: 60%;
+    }
+
+    img {
+        size: 60%;
+    }
+    .footer {
+        max-width: 100%;
+        position: relative;
+        
+
+
+    }
+}
+
+@media screen (max-width: 640px) {
+    .container {
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 15px;
+    }
+    .column.middle {
+        display: block;
+        float: none;
+        width: 90%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        size: 32px;
+    }
+    .main {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .column.side,
+        {
+        position: absolute;
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    .header {
+        position: static;
+        width: 100%;
+        display: block;
+        float: none;
+        margin-left: 15px;
+
+    }
+    .nav {
+        float: none;
+        display: inline-block;
+        vertical-align: center;
+    
+    }
+
+    .port {
+        size: 60%;
+    }
+
+    img {
+        size: 60%;
+    }
+    .footer {
+        max-width: 100%;
+        position: relative;
+        
+
+
+    }
+}
